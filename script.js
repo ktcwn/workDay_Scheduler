@@ -57,10 +57,10 @@ let dayPlanner = document.getElementById("dayPlanner");
 userStorage.forEach(item => {
     // creating div for rows
     let row = document.createElement("div");
-    row.classList.add("timeBlock");
+    row.classList.add("timeBlock", "row");
     dayPlanner.appendChild(row);
     let timeDiv = document.createElement("div");
-    timeDiv.classList.add("time");
+    timeDiv.classList.add("time", "hour");
     timeDiv.innerText = item.displayTime;
     row.appendChild(timeDiv);
 
@@ -77,7 +77,7 @@ userStorage.forEach(item => {
     // save button *add icon later
     let button = document.createElement("button");
         button.type = "submit";
-        button.innerText = "save";
+        button.innerText = "save";///
         form.appendChild(button);
     button.addEventListener("click", e => {
         e.preventDefault();
@@ -99,12 +99,21 @@ userStorage.forEach(item => {
 // finding all text areas and savings all values to proper times inside array
 // allows user to save once for all data entered
 function saveToLocalStorage() {
+// we set todoInput on text areas - this grabs every HTML element and saves the lists to values
+// saves each indiv.
     let values = document.getElementsByClassName("todoInput");
+// spread syntax (...) converting HTML list into array list of elements
+// square brackets is an array [values]
     [...values].forEach((value, index) => {
+// index from the for loop 
         userStorage[index].todo = value.value;
     });
+// calling to reset or overwrite existing text with user input to save items to local storage
     window.localStorage.setItem("userInput", JSON.stringify(userStorage));
 }
+
+//todo:
+ 
 
 
 

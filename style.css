@@ -6,11 +6,13 @@ body {
 
 textarea {
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h4 {
@@ -63,6 +65,7 @@ h4 {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+
 }
 
 .past {
@@ -86,6 +89,7 @@ h4 {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  background-image: https://static.thenounproject.com/png/141506-200.png;
 }
 
 .saveBtn i:hover {
