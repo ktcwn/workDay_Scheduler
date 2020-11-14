@@ -8,7 +8,7 @@ This application gives the user a form to complete for their work day to keep tr
 Links:
 
 - https://github.com/ktcwn/workDay_Scheduler
-- Deployed Application Link
+- https://ktcwn.github.io/workDay_Scheduler/
 
 Screenshots:
 
