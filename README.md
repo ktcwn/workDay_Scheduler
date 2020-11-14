@@ -13,7 +13,7 @@ Links:
 Screenshots:
 
 <img src="https://github.com/ktcwn/workDay_Scheduler/blob/main/assets/WorkDayLanding.png">
-<img src="WorkDayUserInput.png">
+<img src="https://github.com/ktcwn/workDay_Scheduler/blob/main/assets/WorkDayUserInput.png">
 
 
 Reference:
