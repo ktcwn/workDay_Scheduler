@@ -12,8 +12,8 @@ Links:
 
 Screenshots:
 
-- Landing Page
-- Gif of UX
+<img src="WorkDayLanding.png">
+<img src="WorkDayUserInput.png">
 
 
 Reference:
